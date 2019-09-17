@@ -1,3 +1,7 @@
+# This program keeps track of any price changes to your desired stock and then will send you email notification as per your preferences
+
+# stock price data are used from finance.yahoo.com
+
 import requests
 from bs4 import BeautifulSoup # can parse the information we got from the site
 import smtplib
